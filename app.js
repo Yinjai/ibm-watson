@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || process.env.VCAP_APP_PORT || 3000;
 const app = express();
 
 app.use(express.static(__dirname));
