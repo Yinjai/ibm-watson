@@ -1,0 +1,24 @@
+{
+  "name": "ibm-watson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jayzillachu/ibm-watson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jayzillachu/ibm-watson/issues"
+  },
+  "homepage": "https://github.com/Jayzillachu/ibm-watson#readme"
+}
