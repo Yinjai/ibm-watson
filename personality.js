@@ -17,9 +17,11 @@ var params = {
 };
 
 personality_insights.profile(params, function(error, response) {
-  if (error)
+  if (error){
     console.log('error:', error);
-  else
-    console.log(JSON.stringify(response, null, 2));
+}
+  else {
+     console.log(response);
+     console.log(JSON.stringify(response, null, 2));
   }
-);
+});
