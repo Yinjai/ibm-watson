@@ -23,7 +23,7 @@ var params = {
 
 app.use(express.static(__dirname));
 
-app.get('/', function(req, res){
+app.get('/test', function(req, res){
     personality_insights.profile(params,
       function (err, response) {
         if (err)
